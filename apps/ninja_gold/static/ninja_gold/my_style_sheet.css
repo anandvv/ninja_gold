@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border: 1px dotted green;*/
+}
+
+#wrapper{
+    width: 970px;
+    background-color: silver;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    margin: 20px;
+    padding: 20px;
+}
+
+#content{
+    padding: 20px;
+}
+
+#places{
+    padding: 20px;
+}
+
+.place{
+    display: inline-block;
+    width: 214px;
+    height: 200px;
+    vertical-align: top;
+    border: 2px solid black;
+}
+
+    .place > h3 {
+        display: inline-block;
+        left:50%;
+        width: 80px;
+        text-align: center;
+        margin: 0px 60px;
+    }
+
+    .place > h4 {
+        display: inline-block;
+        left:50%;
+        width: 180px;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    .findGoldButton{
+        left: 50%;
+        margin: 30px 30px;
+        width: 150px;
+        height: 50px;
+    }
+
+.activity{
+    margin: 50px 0px;
+}
+
+#ninjaActivities{
+    width: 100%;
+    height: 200px;
+}
